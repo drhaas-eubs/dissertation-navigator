@@ -172,3 +172,17 @@ lead, "What this section/chapter must contain", the nested Slibrary accordion, a
 - Framework Gallery intro made inclusive of both tracks ("your MBA or BBA dissertation").
 - BBA page: removed the now-redundant link back to the MBA six-chapter structure (BBA has its own full chapter accordion); kept Proposal, Defence and Frameworks shared links.
 - All stale terms ("Variant", "BBA page", "Six-Chapter") removed. All links resolve, all tags balanced, promoter name correct.
+
+---
+
+## UPDATE - Academic Phrase banks added
+
+Every chapter (MBA + BBA), the key proposal sections, and the key defence stages now include a nested "Academic phrases" accordion (navy, pencil icon) alongside the Frameworks accordion. Each opens to grouped, quote-marked sentence starters and a downloadable A4 phrase sheet.
+
+Sources: the "Essential Academic Phrases" infographic, RMIT "Research Writing: Starter Phrases", and - for Chapter 4 / Findings - the graph-describing and figure/table vocabulary sheets.
+
+- MBA chapters: 6 phrase accordions; BBA chapters: 6; Proposal: 3; Defence: 5
+- New A4 phrase sheets in phrases/ (14 PDFs): ch1-ch6, p2/p3/p4, d2/d5/d6/d7/d8
+- Total A4 reference sheets now: 57 + 14 = 71
+
+Each phrase list is framed as "a scaffold, never text to paste unchanged" to keep it on the right side of the academic-integrity line.

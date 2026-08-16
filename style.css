@@ -338,3 +338,31 @@ ul.reflist li:last-child{border-bottom:none}
 .track-bba .track-meta{color:var(--amber)}
 .track-body{font-size:13.8px; color:var(--ink); line-height:1.5; flex-grow:1; margin-bottom:14px}
 .track .pdf-link{align-self:flex-start}
+
+/* ---------- nested Academic Phrases accordion (parallel to fw-acc) ---------- */
+details.phr-acc{border:1px solid var(--navy); border-radius:10px; margin:8px 0 4px; background:#eef2f8; overflow:hidden}
+details.phr-acc > summary{
+  list-style:none; cursor:pointer; padding:11px 16px 11px 40px; position:relative;
+  font-weight:bold; color:var(--navy); font-size:13.5px; background:#eef2f8;
+}
+details.phr-acc > summary::-webkit-details-marker{display:none}
+details.phr-acc > summary::before{
+  content:"\270D"; position:absolute; left:14px; top:50%; transform:translateY(-50%); font-size:14px;
+}
+details.phr-acc > summary::after{
+  content:"+"; position:absolute; right:16px; top:50%; transform:translateY(-50%);
+  font-size:20px; font-weight:bold; color:var(--navy); line-height:1;
+}
+details.phr-acc[open] > summary::after{content:"\2013"}
+details.phr-acc[open] > summary{border-bottom:1px solid var(--navy)}
+.phr-acc-body{padding:12px 14px 14px; background:#fff}
+.phr-group{margin-bottom:12px}
+.phr-gtitle{font-weight:bold; color:var(--navy); font-size:12.5px; margin-bottom:5px;
+  padding-bottom:3px; border-bottom:2px solid var(--gold); display:inline-block}
+ul.phr-list{margin:4px 0 0; padding-left:0; list-style:none}
+ul.phr-list li{
+  font-size:13px; color:var(--ink); line-height:1.4; padding:5px 10px 5px 26px; position:relative;
+  border-bottom:1px solid var(--light);
+}
+ul.phr-list li:last-child{border-bottom:none}
+ul.phr-list li::before{content:"\201C"; position:absolute; left:8px; top:4px; color:var(--gold); font-size:15px; font-weight:bold}
